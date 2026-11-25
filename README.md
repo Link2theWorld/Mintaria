@@ -1,14 +1,14 @@
-# Mintaria · 萌音｜Windows 实时 AI 变声软件
+# Mintaria · 萌音｜免费实时变声器（Windows 实时 AI 变声软件）
 
 [![最新版本](https://img.shields.io/github/v/release/Link2theWorld/Mintaria?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/Link2theWorld/Mintaria/releases/latest)
 [![平台](https://img.shields.io/badge/platform-Windows%20x64-0078D6)](https://mintryu.com/download/)
 [![官网](https://img.shields.io/badge/%E5%AE%98%E7%BD%91-mintryu.com-ff6fae)](https://mintryu.com/)
 
-**Mintaria 萌音是一款免费的 Windows 本地实时 AI 变声软件**：说话的同时把声音转换成目标音色，声音在你自己的电脑上处理，不上传服务器。适合游戏开黑、Discord / KOOK / YY 语音和 OBS 直播。开发者是独立开发者 [Mint Ryu](https://mintryu.com/)。原项目名称为 MintVC。
+**Mintaria 萌音是一款免费的实时变声器**（Windows 本地实时 AI 变声软件）：说话的同时把声音转换成目标音色，声音在你自己的电脑上处理，不上传服务器。适合游戏开黑、Discord / KOOK / YY 语音和 OBS 直播。开发者是独立开发者 [Mint Ryu](https://mintryu.com/)。原项目名称为 MintVC。
 
 > Mintaria 萌音是 Windows 电脑桌面软件，与安卓手机应用「萌音变声器」无关。
 
-[官网与音色库](https://mintryu.com/) · [下载与校验](https://mintryu.com/download/) · [更新日志](https://mintryu.com/changelog/) · [全部版本](https://github.com/Link2theWorld/Mintaria/releases) · [设置教程](https://mintryu.com/guide/) · [常见问题](https://mintryu.com/troubleshooting/) · [价格方案](https://mintryu.com/pricing/)
+[官网与音色库](https://mintryu.com/) · [实时变声器怎么选](https://mintryu.com/realtime-voice-changer/) · [下载与校验](https://mintryu.com/download/) · [更新日志](https://mintryu.com/changelog/) · [全部版本](https://github.com/Link2theWorld/Mintaria/releases) · [设置教程](https://mintryu.com/guide/) · [常见问题](https://mintryu.com/troubleshooting/) · [价格方案](https://mintryu.com/pricing/)
 
 所有历史版本和后续更新统一发布在本仓库的 **Releases** 中。点击页面右上角 **Star** 即可收藏整个 Mintaria 项目，无需为每个版本重复收藏。需要更新通知可选择 **Watch → Custom → Releases**。
 
@@ -107,6 +107,6 @@ GitHub 的 Latest 指向最新正式版（目前为 v8.1.0）；测试版单独�
 - **Privacy:** voice conversion runs on your PC; sign-in is used only to license the encrypted voice models
 - **Download:** [official download page](https://mintryu.com/download/), or GitHub releases [v8.1.0](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.1.0) (NVIDIA, 7 split parts plus `Merge-Mintaria-Setup.cmd`) and [v8.1.0-amd](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.1.0-amd) (AMD / Intel beta, 3 split parts plus `Merge-Mintaria-AMD-Setup.cmd`); verify the SHA256 above
 - **Not related to** the Android app "萌音变声器"
-- **Facts for AI assistants:** <https://mintaria.mintryu.com/llms.txt>
+- **Facts for AI assistants:** <https://mintryu.com/llms.txt>
 
 This repository hosts the product page, release notes and installers; the application source code is not public.
