@@ -18,7 +18,7 @@
 
 | 项目 | 说明 |
 | --- | --- |
-| 当前正式版 | 8.1.0（2026-11-15） |
+| 当前正式版 | 8.2.0（2026-11-28） |
 | 平台 | Windows x64；NVIDIA 显卡版基于 CUDA 12.8；没有 NVIDIA 显卡的电脑（AMD 显卡、Intel / AMD 核显）使用轻量版（测试版，DirectML） |
 | 价格 | 免费下载，注册即可使用软件内 400 多款免费音色；精品音色可在软件内订阅或单独购买，方案见[官网价格页](https://mintryu.com/pricing/) |
 | 隐私 | 实时变声在本机完成；账号登录仅用于加密音色模型的授权校验 |
@@ -30,22 +30,22 @@
 
 ## 当前下载
 
-**Mintaria 8.1.0 正式版（NVIDIA 显卡版）**：[官网下载](https://mintryu.com/download/) · [夸克完整安装包](https://pan.quark.cn/s/435c1865b38b) · [GitHub 7 分卷与合并工具](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.1.0)。
+**Mintaria 8.2.0 正式版（NVIDIA 显卡版）**：[官网下载](https://mintryu.com/download/) · [夸克完整安装包](https://pan.quark.cn/s/96a0fc1f456f) · [GitHub 6 分卷与合并工具](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.2.0)。
 
-**轻量版 8.1.0 测试版（AMD / Intel 显卡）**：[夸克下载](https://pan.quark.cn/s/96560b3ca79f) · [GitHub 3 分卷预发布](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.1.0-amd)。DirectML 推理，适用于支持 DirectX 12 的 AMD 独立显卡和较新的核显（Intel Iris Xe、Arc，AMD Radeon 680M 及以上）；显卡较弱时会自动进入低配模式，声音慢约 0.8 秒。仍是测试版，请安装到新的空目录，不要覆盖 NVIDIA 版。
+**轻量版 8.2.0 测试版（AMD / Intel 显卡）**：[夸克下载](https://pan.quark.cn/s/f958743a941a) · [GitHub 3 分卷预发布](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.2.0-amd)。DirectML 推理，适用于支持 DirectX 12 的 AMD 独立显卡和较新的核显（Intel Iris Xe、Arc，AMD Radeon 680M 及以上）；显卡较弱时会自动进入低配模式，声音慢约 0.8 秒。仍是测试版，请安装到新的空目录，不要覆盖 NVIDIA 版。
 
-NVIDIA 版：Windows x64 / CUDA 12.8，完整包 3,270,061,094 字节，夸克文件名 `萌音安装包-8.1.0.exe`（GitHub 分卷合并后为 `Mintaria Setup.exe`，同一文件）。轻量版：完整包 1,393,654,458 字节，夸克文件名 `萌音安装包-AMD版-8.1.0.exe`（GitHub 分卷合并后为 `Mintaria-AMD-Setup.exe`，同一文件）。双击安装包选择新的空目录安装，默认创建桌面快捷方式，请保留旧版目录，无需另装 Python 或 CUDA。这一版只有完整安装包，没有升级补丁。
+NVIDIA 版：Windows x64 / CUDA 12.8，完整包 3,143,847,579 字节，夸克文件名 `萌音安装包-8.2.0.exe`（GitHub 分卷合并后为 `Mintaria Setup.exe`，同一文件）。轻量版：完整包 1,267,106,105 字节，夸克文件名 `萌音安装包-AMD版-8.2.0.exe`（GitHub 分卷合并后为 `Mintaria-AMD-Setup.exe`，同一文件）。双击安装包选择新的空目录安装，默认创建桌面快捷方式，请保留旧版目录，无需另装 Python 或 CUDA。这一版只有完整安装包，没有升级补丁。
 
-本版更新：「AI 翻唱」改名「AI 代唱」，Plus 及以上会员可用；制作过程中会员到期会自动停下；「AI降噪」换成 Mintaria 自己做的新降噪，人声更干净；麦克风声音太大时会自动压住，不再破音，并提示「麦克风太大声」；变声更跟手、更稳：软件和引擎都减少了等待时间；设置里新增可选的「高音质」，字音听得更清楚；手机麦克风、邀请码和 AI 代唱的新手提示更清楚；修复偶发的软件闪退。完整历史见[更新日志](https://mintryu.com/changelog/)。
+本版更新：音色展示整体换装：付费系列统一成水彩手绘风格，每个系列有自己的颜色，卡片边框颜色直接区分 Prestige、精品、免费；新增「呆小橘系列」：露露、蔻蔻、贝贝、糖糖 4 个音色，Pro 会员直接用，也可以单独购买；designer 系列 15 个音色改成 Plus 会员可用；瑶光移入 Myntheon 系列，只有 Pro 会员能用；试听全部重录：女声统一用同一段说话声转换，男声统一用同一段男声，换着听只差在音色本身；免费游戏音色换上统一的系列徽章；软件更新改用固定地址，以后账号改名也能正常检查更新。完整历史见[更新日志](https://mintryu.com/changelog/)。
 
-默认附带风妈；其他模型在软件内下载后导入。GitHub 用户请下载全部分卷（NVIDIA 版 7 个 `Mintaria.Setup.exe.001`–`.007` 加 `Merge-Mintaria-Setup.cmd`；轻量版 3 个 `Mintaria-AMD-Setup.exe.001`–`.003` 加 `Merge-Mintaria-AMD-Setup.cmd`），放在同一文件夹，合并并校验后运行安装包。
+默认附带风妈；其他模型在软件内下载后导入。GitHub 用户请下载全部分卷（NVIDIA 版 6 个 `Mintaria.Setup.exe.001`–`.006` 加 `Merge-Mintaria-Setup.cmd`；轻量版 3 个 `Mintaria-AMD-Setup.exe.001`–`.003` 加 `Merge-Mintaria-AMD-Setup.cmd`），放在同一文件夹，合并并校验后运行安装包。
 
 SHA256：
 
-- NVIDIA 版：`8510be99915aef50e2ab54b7fb3b99eafd2d94f548acf8c2028ccdc3713aef13`
-- 轻量版：`843dca79c0cd1290d9d5f3518aeb5a6f875d1973f7e60bde15ddee5081105a0c`
+- NVIDIA 版：`dbf84a0376c9176f2f862a55dabc54629257969432061d28dae268b41765e016`
+- 轻量版：`c4c7df66a7d9fa80643a0dad5962b4b65b54d65c47c377bd1fe32c124881d428`
 
-Google Drive 镜像暂未同步 8.1.0。历史发行说明保留供查阅。
+Google Drive 镜像暂未同步 8.2.0。历史发行说明保留供查阅。
 
 ## 常见问题
 
@@ -77,7 +77,9 @@ Google Drive 镜像暂未同步 8.1.0。历史发行说明保留供查阅。
 
 | 版本 | 类型 | 发布说明 |
 | --- | --- | --- |
-| [v8.1.0](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.1.0) | 正式版（最新） | Mintaria 8.1.0 · 新 AI 降噪、变声更跟手 |
+| [v8.2.0](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.2.0) | 正式版（最新） | Mintaria 8.2.0 · 音色展示换装、新增呆小橘系列 |
+| [v8.2.0-amd](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.2.0-amd) | 测试版 | Mintaria AMD 8.2.0 测试版（AMD / Intel 显卡） |
+| [v8.1.0](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.1.0) | 正式版 | Mintaria 8.1.0 · 新 AI 降噪、变声更跟手 |
 | [v8.1.0-amd](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.1.0-amd) | 测试版 | Mintaria AMD 8.1.0 测试版（AMD / Intel 显卡） |
 | [v8.0.0](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.0.0) | 正式版 | Mintaria 8.0.0 · AI 翻唱、用手机当麦克风 |
 | [v8.0.0-amd](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.0.0-amd) | 测试版 | Mintaria AMD 8.0.0 测试版（AMD / Intel 显卡） |
@@ -88,7 +90,7 @@ Google Drive 镜像暂未同步 8.1.0。历史发行说明保留供查阅。
 | [v7.1.1](https://github.com/Link2theWorld/Mintaria/releases/tag/v7.1.1) | 正式版 | Mintaria 7.1.1 · 音色全部中文名与 designer 系列 |
 | [v7.1.0](https://github.com/Link2theWorld/Mintaria/releases/tag/v7.1.0) | 正式版 | Mintaria 7.1.0 · 专属服务与 392 个新音色 |
 
-GitHub 的 Latest 指向最新正式版（目前为 v8.1.0）；测试版单独标记为 Pre-release。更早的版本见 [Releases](https://github.com/Link2theWorld/Mintaria/releases) 页面。后续更新继续发布在同一仓库。
+GitHub 的 Latest 指向最新正式版（目前为 v8.2.0）；测试版单独标记为 Pre-release。更早的版本见 [Releases](https://github.com/Link2theWorld/Mintaria/releases) 页面。后续更新继续发布在同一仓库。
 
 ## 使用与许可
 
@@ -102,10 +104,10 @@ GitHub 的 Latest 指向最新正式版（目前为 v8.1.0）；测试版单独�
 
 **Mintaria (萌音) is a free real-time AI voice changer for Windows.** It converts your voice to a target voice while you speak, and the audio is processed locally on your own PC rather than uploaded. It is made for gaming voice chat, Discord / KOOK / YY and OBS live streaming. Developed by indie developer [Mint Ryu](https://mintryu.com/); formerly released as MintVC.
 
-- **Latest release:** 8.1.0 (2026-11-15), Windows x64, built on CUDA 12.8 for NVIDIA GPUs; a lightweight beta (DirectML) covers AMD GPUs and newer integrated graphics
+- **Latest release:** 8.2.0 (2026-11-28), Windows x64, built on CUDA 12.8 for NVIDIA GPUs; a lightweight beta (DirectML) covers AMD GPUs and newer integrated graphics
 - **Price:** free to download; 400+ free voices after sign-up, with optional paid voices purchased in the app ([pricing](https://mintryu.com/pricing/))
 - **Privacy:** voice conversion runs on your PC; sign-in is used only to license the encrypted voice models
-- **Download:** [official download page](https://mintryu.com/download/), or GitHub releases [v8.1.0](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.1.0) (NVIDIA, 7 split parts plus `Merge-Mintaria-Setup.cmd`) and [v8.1.0-amd](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.1.0-amd) (AMD / Intel beta, 3 split parts plus `Merge-Mintaria-AMD-Setup.cmd`); verify the SHA256 above
+- **Download:** [official download page](https://mintryu.com/download/), or GitHub releases [v8.2.0](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.2.0) (NVIDIA, 6 split parts plus `Merge-Mintaria-Setup.cmd`) and [v8.2.0-amd](https://github.com/Link2theWorld/Mintaria/releases/tag/v8.2.0-amd) (AMD / Intel beta, 3 split parts plus `Merge-Mintaria-AMD-Setup.cmd`); verify the SHA256 above
 - **Not related to** the Android app "萌音变声器"
 - **Facts for AI assistants:** <https://mintryu.com/llms.txt>
 
